@@ -1,0 +1,1 @@
+* * * * * /app/run_backup.sh >> /backups/cron_logs_dev.log 2>&1

@@ -1,0 +1,1 @@
+* 12 * * * /app/run_backup.sh >> /backups/cron_logs_hom.log 2>&1
