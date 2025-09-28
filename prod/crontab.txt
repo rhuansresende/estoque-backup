@@ -1,1 +1,1 @@
-* * * * * /app/run_backup.sh >> /backups/cron_logs_prod.log 2>&1
+* 12 * * * /app/run_backup.sh >> /backups/cron_logs_prod.log 2>&1

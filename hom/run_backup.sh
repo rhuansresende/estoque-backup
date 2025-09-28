@@ -6,7 +6,7 @@ export PGUSER="postgreshom"
 export PGPASSWORD="123456"
 export PGDATABASE="estoquedbhom"
 
-echo "[DEBUG] HOST=$PGHOST USER=$PGUSER DB=$PGDATABASE" >> /backups/hom.log
+echo "[DEBUG] HOST=$PGHOST USER=$PGUSER DB=$PGDATABASE" >> /backups/cron_logs_hom.log
 
 echo "[BACKUP START][$ENVIRONMENT] $(date)" >> /backups/cron_logs_hom.log
 
