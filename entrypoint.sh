@@ -16,6 +16,10 @@ esac
 cp "$ENV_PATH/run_backup.sh" /app/run_backup.sh
 cp "$ENV_PATH/crontab.txt" /etc/cron.d/postgres_backup
 
+# Corrige possíveis CRLF do Git (Windows)
+dos2unix /app/run_backup.sh
+dos2unix /etc/cron.d/postgres_backup
+
 chmod +x /app/run_backup.sh
 chmod 0644 /etc/cron.d/postgres_backup
 
