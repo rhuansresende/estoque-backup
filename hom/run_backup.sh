@@ -2,9 +2,9 @@
 set -e
 
 export PGHOST="postgres"
-export PGUSER="postgres"
-export PGPASSWORD="aA@741859"
-export PGDATABASE="estoquedb"
+export PGUSER="postgreshom"
+export PGPASSWORD="123456"
+export PGDATABASE="estoquedbhom"
 
 echo "[DEBUG] HOST=$PGHOST USER=$PGUSER DB=$PGDATABASE" >> /backups/hom.log
 

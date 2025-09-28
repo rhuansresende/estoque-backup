@@ -4,7 +4,7 @@ set -e
 export PGHOST="postgres"
 export PGUSER="bsemporio"
 export PGPASSWORD="YmFuY29kZWRhZG9zYnNlbXBvcmlv"
-export PGDATABASE="estoquedb"
+export PGDATABASE="estoquedbprod"
 
 echo "[DEBUG] HOST=$PGHOST USER=$PGUSER DB=$PGDATABASE" >> /backups/prod.log
 
